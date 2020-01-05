@@ -1,8 +1,7 @@
 import React from 'react'
 import {render} from 'react-dom'
+import Layout from './components/layout'
 
-function App() {
-  return <div>Start</div>
-}
+const App = () => <Layout />
 
 render(<App />, document.getElementById('root'))
